@@ -1,0 +1,25 @@
+@CHARSET "ISO-8859-1";
+#titlebox{
+	height:80px;
+	position:in-fixed;
+	color:white;
+	}
+	
+
+	
+#title{
+	font-size:40;
+	position:relative;
+	top:0px;
+	color:white;
+	font-family:Comic ,Times,serf;
+	text-align:center;
+	letter-spacing:.2em;
+	font-weight:bold;
+	color:#a89a9a;
+}
+
+#logo{
+	margin:auto;
+	}
+	
