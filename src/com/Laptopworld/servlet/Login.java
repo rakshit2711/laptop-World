@@ -46,7 +46,7 @@ public class Login extends HttpServlet {
 	try{  
 		Class.forName("com.mysql.cj.jdbc.Driver");  
 		Connection con=DriverManager.getConnection(  
-		"jdbc:mysql://localhost:3306/rak","root","Rak2010@gmail");  	
+		"jdbc:mysql://localhost:3306/rak","root","password");////Set your user, password , Db connectionhere  	
 			String str="select * from userdetail where username=? and password=?";
 					PreparedStatement ps=con.prepareStatement(str);
 						ps.setString(1,nam);
